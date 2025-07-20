@@ -6,7 +6,6 @@ This project focuses on predicting the **10-year risk of coronary heart disease 
 
 ## 📊 Dataset Overview
 
-- **Source**: Framingham Heart Study dataset (UCI / Kaggle)
 - **Total records**: ~4,000 patients
 - **Target Variable**: `TenYearCHD` (1 = CHD likely in 10 years, 0 = unlikely)
 - **Features Include**:
@@ -20,7 +19,7 @@ This project focuses on predicting the **10-year risk of coronary heart disease 
 ## 🛠️ Preprocessing
 
 - Removed missing values via imputation and row-wise dropping (as appropriate)
-- Encoded categorical features (like `is_smoking`) to binary format
+- Encoded categorical features (like `is_smoking`,`sex`) to binary format
 - Normalized/Scaled continuous variables for model input
 - Handled outliers using `standardscaler`
 
